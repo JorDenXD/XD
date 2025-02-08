@@ -34,7 +34,6 @@ async def eor(message: Message, *args, **kwargs) -> Message:
 
 
 async def call_decorators():
-    @call.on_kicked()
     @call.on_closed_voice_chat()
     @call.on_left()
     async def stream_services_handler(client, chat_id: int):
