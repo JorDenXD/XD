@@ -44,7 +44,7 @@ async def call_decorators():
             return
 
 
-    @call.on_stream_end()
+
     async def stream_end_handler_(client, update: Update):
         if not isinstance(update, StreamAudioEnded):
             return
