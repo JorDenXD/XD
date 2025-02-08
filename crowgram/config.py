@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from os import getenv
+import os
 
 load_dotenv()
 
