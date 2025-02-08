@@ -2,7 +2,7 @@ aiofiles==23.2.1
 aiohttp==3.9.3
 asyncio==3.4.3
 https://github.com/adityahalder/pyrogram/archive/master.zip
-pytgcalls
+py-tgcalls
 python-dotenv==1.0.0
 tgcrypto==1.2.5
 youtube-search-python
