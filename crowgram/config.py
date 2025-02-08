@@ -15,6 +15,7 @@ OWNER_ID: list[int] = [int(os.getenv("OWNER_ID", 7143123520))]
 
 LOG_GROUP_ID: int = int(os.getenv("LOG_GROUP_ID", -4694535872))
 
+BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # Optional Variables
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". ! /").split())
